@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c069da; /* Lilás claro para o fundo da página */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Cor de texto padrão para melhor contraste */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #E6E6FA; /* Lilás mais claro para o container */
+    padding: 20px;
+    border-radius: 10px; /* Bordas mais arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+}
+
+h1 {
+    text-align: center;
+    color: #8A2BE2; /* Roxo vibrante para o título */
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(70% - 20px); /* Ajuste para padding */
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #BA55D3; /* Borda lilás para o input */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #9370DB; /* Roxo médio para o botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+button:hover {
+    background-color: #8A2BE2; /* Roxo mais escuro ao passar o mouse */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #F0F8FF; /* Fundo branco azulado para os itens da lista */
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve para os itens */
+    transition: background-color 0.3s ease;
+    cursor: pointer; /* Indica que o item é clicável */
+}
+
+li:hover {
+    background-color: #E0BBE4; /* Lilás claro ao passar o mouse sobre o item */
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888; /* Cor mais escura para itens riscados */
+    background-color: #F5F5DC; /* Fundo bege claro para itens riscados */
+}
+
+li button { /* Estilo específico para o botão de remover dentro do item da lista */
+    background-color: #FF6347; /* Vermelho tomate para o botão de remover */
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+li button:hover {
+    background-color: #FF4500; /* Vermelho alaranjado ao passar o mouse no botão de remover */
+}
